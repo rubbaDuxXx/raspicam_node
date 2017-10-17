@@ -1,0 +1,19 @@
+<launch>
+  <node type="raspicam_node" pkg="raspicam_node" name="raspicam_node" output="screen">
+
+    <param name="camera_info_url" value="package://raspicam_node/camera_info/camerav1_640x480.yaml"/>
+    <param name="width" value="640"/>
+    <param name="height" value="480"/>
+
+    <param name="framerate" value="10"/>
+    <param name="exposure_mode" value="off"/>
+    <param name="shutter_speed" value="1"/>
+	<param name="vFlip" value="true"/>
+	<param name="ISO" value="100"/>
+	<param name="awb_mode" value="off"/>
+
+    <param name="camera_frame_id" value="raspicam"/>
+
+  </node>
+
+</launch>
