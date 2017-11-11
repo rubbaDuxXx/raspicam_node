@@ -6,11 +6,12 @@
     <param name="height" value="480"/>
 
     <param name="framerate" value="10"/>
-    <param name="exposure_mode" value="off"/>
-    <param name="shutter_speed" value="1"/>
+    <param name="exposure_mode" value="sports"/>
+    <param name="shutterSpeed" value="10"/>
+    <param name="contrast" value="75"/>
 	<param name="vFlip" value="true"/>
 	<param name="ISO" value="100"/>
-	<param name="awb_mode" value="off"/>
+	<param name="awb_mode" value="sun"/>
 
     <param name="camera_frame_id" value="raspicam"/>
 
